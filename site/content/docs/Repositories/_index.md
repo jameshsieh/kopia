@@ -138,6 +138,7 @@ $ kopia repository create b2 \
         --key-id=... \
         --key=...
 ```
+> NOTE: You can use same repository you already used on other kopia machines, but remember to add a --prefix=xxx otherwise you will get error message like this:ERROR unable to get repository storage: found existing data in storage location
 
 There are also various other options (such as [actions](../advanced/actions/)) you can change or enable -- see the [help docs](../reference/command-line/common/repository-create-b2/) for more information.
 
